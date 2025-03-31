@@ -1,0 +1,48 @@
+name: "Push Docker Image"
+description: "Pushes a docker image for a single component"
+
+inputs:
+  component_name:
+    description: "Name of component to deploy e.g. carts"
+    required: true
+  component_type:
+    description: "Type of component to deploy e.g. service"
+    required: true
+  registry_host:
+    description: "Image registry host e.g. ghcr.io"
+    required: true
+  registry_endpoint:
+    description: "Image registry repo e.g. ghcr.io/saas"
+    required: true
+  registry_username:
+    description: "Registry username"
+    required: true
+  registry_password:
+    description: "Registry password"
+    required: true
+  
+runs:
+  using: "composite"
+  steps:
+  - name: Login to Container Registry
+    uses: docker/login-action@v1
+    with:
+      registry: ${{ inputs.registry_host }}
+      username: ${{ inputs.registry_username }}
+      password: ${{ inputs.registry_password }}
+
+  - name: Build docker image
+    shell: bash
+    run: sudo -E docker-compose build ${{ inputs.component_type }}_${{ inputs.component_name }}
+    working-directory: ./src
+    env:
+      TAG: latest
+      REGISTRY_ENDPOINT: ${{ inputs.registry_endpoint }}
+
+  - name: Push docker image
+    shell: bash
+    run: sudo -E docker-compose push ${{ inputs.component_type }}_${{ inputs.component_name }}
+    working-directory: ./src
+    env:
+      TAG: latest
+      REGISTRY_ENDPOINT: ${{ inputs.registry_endpoint }}

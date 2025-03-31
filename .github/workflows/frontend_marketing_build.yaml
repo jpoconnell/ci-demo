@@ -1,0 +1,53 @@
+name: frontend_marketing_build
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+  push:
+    branches:
+      - main
+
+    paths:
+      - src/frontends/marketing/**
+      - .github/workflows/frontend_marketing.yaml
+
+  pull_request:
+    branches:
+      - main
+
+    paths:
+      - src/frontends/marketing/**
+      - .github/workflows/frontend_marketing.yaml
+
+env:
+  COMPONENT_NAME: marketing
+  COMPONENT_TYPE: frontend
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - uses: ./.github/workflows/composite/build
+        with:
+          component_name: ${{ env.COMPONENT_NAME }}
+          component_type: ${{ env.COMPONENT_TYPE }}
+          registry_endpoint: ${{ secrets.REGISTRY_ENDPOINT }}
+
+  push:
+    needs: [build]
+    if: ${{ github.event_name != 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - uses: ./.github/workflows/composite/push
+        with:
+          component_name: ${{ env.COMPONENT_NAME }}
+          component_type: ${{ env.COMPONENT_TYPE }}
+          registry_host: ${{ secrets.REGISTRY_HOST }}
+          registry_endpoint: ${{ secrets.REGISTRY_ENDPOINT }}
+          registry_username: ${{ github.actor }}
+          registry_password: ${{ secrets.GITHUB_TOKEN }}
