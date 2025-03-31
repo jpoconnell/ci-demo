@@ -1,0 +1,7 @@
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration/obj/Debug/net9.0/Registration.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration/obj/Debug/net9.0/Registration.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration/obj/Debug/net9.0/Registration.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration/obj/Debug/net9.0/Registration.AssemblyInfo.cs
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration/obj/Debug/net9.0/Registration.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration/obj/Debug/net9.0/Registration.MvcApplicationPartsAssemblyInfo.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration/obj/Debug/net9.0/Registration.sourcelink.json

@@ -1,0 +1,3 @@
+obj/Debug/net6.0/Stores.cs \
+obj/Debug/net6.0/StoresGrpc.cs: /Users/jeremiahoconnell/.nuget/packages/grpc.tools/2.45.0/build/native/include/google/protobuf/empty.proto\
+ ../../../services/stores/Stores/Api/stores.proto

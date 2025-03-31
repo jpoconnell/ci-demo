@@ -1,0 +1,12 @@
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/bin/Debug/net6.0/BuildingBlocks.Domain.DDD.deps.json
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/bin/Debug/net6.0/BuildingBlocks.Domain.DDD.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/bin/Debug/net6.0/BuildingBlocks.Domain.DDD.pdb
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/Debug/net6.0/BuildingBlocks.Domain.DDD.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/Debug/net6.0/BuildingBlocks.Domain.DDD.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/Debug/net6.0/BuildingBlocks.Domain.DDD.AssemblyInfo.cs
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/Debug/net6.0/BuildingBlocks.Domain.DDD.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/Debug/net6.0/BuildingBlocks.Domain.DDD.sourcelink.json
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/Debug/net6.0/BuildingBlocks.Domain.DDD.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/Debug/net6.0/refint/BuildingBlocks.Domain.DDD.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/Debug/net6.0/BuildingBlocks.Domain.DDD.pdb
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/Debug/net6.0/ref/BuildingBlocks.Domain.DDD.dll

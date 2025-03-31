@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Carts.Messages/1.0.0": {
+        "runtime": {
+          "Carts.Messages.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Carts.Messages/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name: registration
+ingress:
+  annotations:
+    cert-manager.io/issuer: letsencrypt-nginx
+  hosts:
+    - host: registration.ecommerce-store-builder.com
+      paths:
+        - path: /
+          pathType: Prefix
+  tls:
+    - secretName: registration-tls
+      hosts:
+        - registration.ecommerce-store-builder.com

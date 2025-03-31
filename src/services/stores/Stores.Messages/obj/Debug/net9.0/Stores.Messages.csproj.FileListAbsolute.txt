@@ -1,0 +1,12 @@
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/bin/Debug/net9.0/Stores.Messages.deps.json
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/bin/Debug/net9.0/Stores.Messages.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/bin/Debug/net9.0/Stores.Messages.pdb
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/Debug/net9.0/Stores.Messages.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/Debug/net9.0/Stores.Messages.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/Debug/net9.0/Stores.Messages.AssemblyInfo.cs
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/Debug/net9.0/Stores.Messages.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/Debug/net9.0/Stores.Messages.sourcelink.json
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/Debug/net9.0/Stores.Messages.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/Debug/net9.0/refint/Stores.Messages.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/Debug/net9.0/Stores.Messages.pdb
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/Debug/net9.0/ref/Stores.Messages.dll

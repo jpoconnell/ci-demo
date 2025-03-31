@@ -1,0 +1,2 @@
+environment:
+  Logging__LogLevel__Default: Warning

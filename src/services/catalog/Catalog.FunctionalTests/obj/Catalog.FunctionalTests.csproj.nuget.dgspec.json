@@ -1,0 +1,552 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.FunctionalTests/Catalog.FunctionalTests.csproj": {}
+  },
+  "projects": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
+        "projectName": "BuildingBlocks.Application",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj",
+        "projectName": "BuildingBlocks.Domain.DDD",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj",
+        "projectName": "BuildingBlocks.Infrastructure",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj"
+              },
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Grpc.Core.Api": {
+              "target": "Package",
+              "version": "[2.70.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.FunctionalTests/Catalog.FunctionalTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.FunctionalTests/Catalog.FunctionalTests.csproj",
+        "projectName": "Catalog.FunctionalTests",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.FunctionalTests/Catalog.FunctionalTests.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.FunctionalTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog/Catalog.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog/Catalog.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "MartinCostello.Logging.XUnit": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj",
+        "projectName": "Catalog.Messages",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog/Catalog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog/Catalog.csproj",
+        "projectName": "Catalog",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog/Catalog.csproj",
+        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj"
+              },
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj"
+              },
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "AspNetCore.HealthChecks.NpgSql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "AspNetCore.HealthChecks.Rabbitmq": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "FluentMigrator": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "FluentMigrator.Runner": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "FluentMigrator.Runner.Postgres": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "Google.Api.CommonProtos": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.45.0, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

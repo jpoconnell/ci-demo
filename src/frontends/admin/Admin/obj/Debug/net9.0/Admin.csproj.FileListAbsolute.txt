@@ -1,0 +1,10 @@
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/obj/Debug/net9.0/Admin.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/obj/Debug/net9.0/Admin.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/obj/Debug/net9.0/Admin.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/obj/Debug/net9.0/Admin.AssemblyInfo.cs
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/obj/Debug/net9.0/Admin.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/obj/Debug/net9.0/Admin.MvcApplicationPartsAssemblyInfo.cs
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/obj/Debug/net9.0/Admin.MvcApplicationPartsAssemblyInfo.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/obj/Debug/net9.0/Admin.RazorAssemblyInfo.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/obj/Debug/net9.0/Admin.RazorAssemblyInfo.cs
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/obj/Debug/net9.0/Admin.sourcelink.json

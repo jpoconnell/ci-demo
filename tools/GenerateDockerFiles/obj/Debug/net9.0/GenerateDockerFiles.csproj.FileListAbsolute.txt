@@ -1,0 +1,15 @@
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/bin/Debug/net9.0/GenerateDockerFiles
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/bin/Debug/net9.0/GenerateDockerFiles.deps.json
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/bin/Debug/net9.0/GenerateDockerFiles.runtimeconfig.json
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/bin/Debug/net9.0/GenerateDockerFiles.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/bin/Debug/net9.0/GenerateDockerFiles.pdb
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/obj/Debug/net9.0/GenerateDockerFiles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/obj/Debug/net9.0/GenerateDockerFiles.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/obj/Debug/net9.0/GenerateDockerFiles.AssemblyInfo.cs
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/obj/Debug/net9.0/GenerateDockerFiles.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/obj/Debug/net9.0/GenerateDockerFiles.sourcelink.json
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/obj/Debug/net9.0/GenerateDockerFiles.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/obj/Debug/net9.0/refint/GenerateDockerFiles.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/obj/Debug/net9.0/GenerateDockerFiles.pdb
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/obj/Debug/net9.0/GenerateDockerFiles.genruntimeconfig.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/obj/Debug/net9.0/ref/GenerateDockerFiles.dll

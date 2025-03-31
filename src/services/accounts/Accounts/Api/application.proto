@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+option csharp_namespace = "Accounts.Api";
+
+package Accounts;
+
+import "google/protobuf/empty.proto";
+
+service AccountsApplicationApi {
+  // commands
+  rpc AddUser (AddUserRequest) returns (google.protobuf.Empty);
+  // queries
+  rpc GetAccount (GetAccountRequest) returns (Account);
+  rpc GetUser (GetUserRequest) returns (User);
+  rpc ListUsers (ListUsersRequest) returns (UsersReply);
+}
+
+// commands
+message AddUserRequest{
+  string user_id = 2;
+  string email = 1;
+}
+
+// queries
+message GetAccountRequest{
+}
+message GetUserRequest{
+  string user_id = 1;
+}
+message ListUsersRequest{
+  
+}
+message UsersReply{
+  repeated User Users = 1;
+}
+
+// Dto
+message Account{
+  string account_id = 1;
+  string name = 2;
+}
+
+message User{
+  string user_id = 1;
+  string email = 2;
+}

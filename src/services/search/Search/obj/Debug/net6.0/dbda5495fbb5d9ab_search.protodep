@@ -1,0 +1,2 @@
+obj/Debug/net6.0/Search.cs \
+obj/Debug/net6.0/SearchGrpc.cs: Api/search.proto

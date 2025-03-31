@@ -1,0 +1,13 @@
+name: shopping
+ingress:
+  annotations:
+    cert-manager.io/issuer: letsencrypt-nginx
+  hosts:
+    - host: shopping.ecommerce-store-builder.dev
+      paths:
+        - path: /
+          pathType: Prefix
+  tls:
+    - secretName: shopping-tls
+      hosts:
+        - shopping.ecommerce-store-builder.dev
