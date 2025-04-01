@@ -13,6 +13,7 @@ on:
           - 'frontend_admin_config'
 
 jobs:
+
   backend_registration_build:
     if: ${{ github.event.inputs.feature == 'backend_registration_build' }}
     uses: ./.github/workflows/backend_registration_build.yaml
@@ -24,3 +25,4 @@ jobs:
   frontend_admin_config:
     if: ${{ github.event.inputs.feature == 'frontend_admin_config' }}
     uses: ./.github/workflows/frontend_admin_config.yaml
+    
