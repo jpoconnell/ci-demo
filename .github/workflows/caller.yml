@@ -1,0 +1,26 @@
+name: MediaInAction Caller Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      feature:
+        description: 'Which feature to deploy'
+        required: true
+        type: choice
+        options:
+          - 'backend_registration_build'
+          - 'frontend_admin_build'
+          - 'frontend_admin_config'
+
+jobs:
+  backend_registration_build:
+    if: ${{ github.event.inputs.feature == 'backend_registration_build' }}
+    uses: ./.github/workflows/backend_registration_build.yaml
+
+  frontend_admin_build:
+    if: ${{ github.event.inputs.feature == 'frontend_admin_build' }}
+    uses: ./.github/workflows/frontend_admin_build.yaml
+
+  frontend_admin_config:
+    if: ${{ github.event.inputs.feature == 'frontend_admin_config' }}
+    uses: ./.github/workflows/frontend_admin_config.yaml
