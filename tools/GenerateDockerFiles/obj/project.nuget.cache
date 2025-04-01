@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L+FQBmXsed0=",
+  "dgSpecHash": "nudKk7H740c=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tools/GenerateDockerFiles/GenerateDockerFiles.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/tools/GenerateDockerFiles/GenerateDockerFiles.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

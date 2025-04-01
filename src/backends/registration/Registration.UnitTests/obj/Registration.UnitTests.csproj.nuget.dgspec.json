@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration.UnitTests/Registration.UnitTests.csproj": {}
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/registration/Registration.UnitTests/Registration.UnitTests.csproj": {}
   },
   "projects": {
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration.UnitTests/Registration.UnitTests.csproj": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/registration/Registration.UnitTests/Registration.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration.UnitTests/Registration.UnitTests.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/registration/Registration.UnitTests/Registration.UnitTests.csproj",
         "projectName": "Registration.UnitTests",
-        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration.UnitTests/Registration.UnitTests.csproj",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/registration/Registration.UnitTests/Registration.UnitTests.csproj",
         "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration.UnitTests/obj/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/registration/Registration.UnitTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"

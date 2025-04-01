@@ -6114,11 +6114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/management/Management.UnitTests/Management.UnitTests.csproj",
+      "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/frontends/management/Management.UnitTests/Management.UnitTests.csproj",
       "projectName": "Management.UnitTests",
-      "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/management/Management.UnitTests/Management.UnitTests.csproj",
+      "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/frontends/management/Management.UnitTests/Management.UnitTests.csproj",
       "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/management/Management.UnitTests/obj/",
+      "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/frontends/management/Management.UnitTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"

@@ -7134,11 +7134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/media/Media.FunctionalTests/Media.FunctionalTests.csproj",
+      "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.FunctionalTests/Media.FunctionalTests.csproj",
       "projectName": "Media.FunctionalTests",
-      "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/media/Media.FunctionalTests/Media.FunctionalTests.csproj",
+      "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.FunctionalTests/Media.FunctionalTests.csproj",
       "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/media/Media.FunctionalTests/obj/",
+      "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.FunctionalTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
@@ -7153,8 +7153,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/media/Media/Media.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/media/Media/Media.csproj"
+            "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media/Media.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media/Media.csproj"
             }
           }
         }

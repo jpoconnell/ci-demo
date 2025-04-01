@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "all2Qbmscrs=",
+  "dgSpecHash": "C6a6/3ajmB4=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/shopping/Shopping/Shopping.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/shopping/Shopping/Shopping.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/ardalis.guardclauses/4.0.1/ardalis.guardclauses.4.0.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/aspnetcore.healthchecks.rabbitmq/6.0.2/aspnetcore.healthchecks.rabbitmq.6.0.2.nupkg.sha512",

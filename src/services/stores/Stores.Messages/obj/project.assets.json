@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/Stores.Messages.csproj",
+      "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/stores/Stores.Messages/Stores.Messages.csproj",
       "projectName": "Stores.Messages",
-      "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/Stores.Messages.csproj",
+      "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/stores/Stores.Messages/Stores.Messages.csproj",
       "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/",
+      "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/stores/Stores.Messages/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"

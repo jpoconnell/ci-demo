@@ -9275,11 +9275,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/search/Search.FunctionalTests/Search.FunctionalTests.csproj",
+      "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/search/Search.FunctionalTests/Search.FunctionalTests.csproj",
       "projectName": "Search.FunctionalTests",
-      "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/search/Search.FunctionalTests/Search.FunctionalTests.csproj",
+      "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/search/Search.FunctionalTests/Search.FunctionalTests.csproj",
       "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/search/Search.FunctionalTests/obj/",
+      "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/search/Search.FunctionalTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
@@ -9294,11 +9294,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj"
+            "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj"
             },
-            "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/search/Search/Search.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/search/Search/Search.csproj"
+            "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/search/Search/Search.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/search/Search/Search.csproj"
             }
           }
         }

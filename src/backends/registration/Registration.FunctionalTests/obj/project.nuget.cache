@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rAk3Ka05bvk=",
+  "dgSpecHash": "U865bA2Xt5E=",
   "success": false,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/registration/Registration.FunctionalTests/Registration.FunctionalTests.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/registration/Registration.FunctionalTests/Registration.FunctionalTests.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/ardalis.guardclauses/5.0.0/ardalis.guardclauses.5.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/aspnetcore.healthchecks.npgsql/9.0.0/aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512",

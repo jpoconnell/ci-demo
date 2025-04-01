@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yLoCX9zVgJM=",
+  "dgSpecHash": "765qOafXmC8=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/shopping/Shopping.FunctionalTests/Shopping.FunctionalTests.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/frontends/shopping/Shopping.FunctionalTests/Shopping.FunctionalTests.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/fluentassertions/6.6.0/fluentassertions.6.6.0.nupkg.sha512",

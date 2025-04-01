@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "onzZWmmXtfg=",
+  "dgSpecHash": "L6J3IHzKclc=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/management/Management/Management.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/frontends/management/Management/Management.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/ardalis.guardclauses/4.0.1/ardalis.guardclauses.4.0.1.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/fluentvalidation/10.4.0/fluentvalidation.10.4.0.nupkg.sha512",

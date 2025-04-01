@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eNIbT13EqJ0=",
+  "dgSpecHash": "wfbkca309vg=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/grpc.core.api/2.70.0/grpc.core.api.2.70.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.aspnetcore.diagnostics.healthchecks/2.2.0/microsoft.aspnetcore.diagnostics.healthchecks.2.2.0.nupkg.sha512",

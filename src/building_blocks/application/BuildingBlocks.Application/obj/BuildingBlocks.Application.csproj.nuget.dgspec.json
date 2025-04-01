@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {}
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {}
   },
   "projects": {
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
         "projectName": "BuildingBlocks.Application",
-        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
         "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/obj/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"

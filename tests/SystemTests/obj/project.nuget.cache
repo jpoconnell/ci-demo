@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zzntn7myuNM=",
+  "dgSpecHash": "NESoP/b/PH4=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tests/SystemTests/SystemTests.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/tests/SystemTests/SystemTests.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/bogus/35.6.2/bogus.35.6.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/coverlet.collector/6.0.4/coverlet.collector.6.0.4.nupkg.sha512",

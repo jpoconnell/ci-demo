@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xYfROWNIHTQ=",
+  "dgSpecHash": "NrJHkK1daak=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/carts/Carts.Messages/Carts.Messages.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/carts/Carts.Messages/Carts.Messages.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

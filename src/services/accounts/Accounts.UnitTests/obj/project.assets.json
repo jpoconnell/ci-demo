@@ -10236,11 +10236,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts.UnitTests/Accounts.UnitTests.csproj",
+      "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts.UnitTests/Accounts.UnitTests.csproj",
       "projectName": "Accounts.UnitTests",
-      "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts.UnitTests/Accounts.UnitTests.csproj",
+      "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts.UnitTests/Accounts.UnitTests.csproj",
       "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-      "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts.UnitTests/obj/",
+      "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts.UnitTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
@@ -10255,8 +10255,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts/Accounts.csproj": {
-              "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts/Accounts.csproj"
+            "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts/Accounts.csproj": {
+              "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts/Accounts.csproj"
             }
           }
         }

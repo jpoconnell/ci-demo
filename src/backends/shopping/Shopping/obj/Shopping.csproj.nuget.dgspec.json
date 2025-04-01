@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/shopping/Shopping/Shopping.csproj": {}
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/shopping/Shopping/Shopping.csproj": {}
   },
   "projects": {
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/shopping/Shopping/Shopping.csproj": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/shopping/Shopping/Shopping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/shopping/Shopping/Shopping.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/shopping/Shopping/Shopping.csproj",
         "projectName": "Shopping",
-        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/shopping/Shopping/Shopping.csproj",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/shopping/Shopping/Shopping.csproj",
         "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/shopping/Shopping/obj/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/shopping/Shopping/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
@@ -26,17 +26,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj"
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj"
               },
-              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts.Messages/Accounts.Messages.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts.Messages/Accounts.Messages.csproj"
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts.Messages/Accounts.Messages.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts.Messages/Accounts.Messages.csproj"
               },
-              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj"
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj"
               },
-              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/Stores.Messages.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/Stores.Messages.csproj"
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/stores/Stores.Messages/Stores.Messages.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/stores/Stores.Messages/Stores.Messages.csproj"
               }
             }
           }
@@ -135,14 +135,14 @@
         }
       }
     },
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
         "projectName": "BuildingBlocks.Application",
-        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
         "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/obj/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
@@ -194,14 +194,14 @@
         }
       }
     },
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj",
         "projectName": "BuildingBlocks.Domain.DDD",
-        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj",
         "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/domain/BuildingBlocks.Domain.DDD/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
@@ -253,14 +253,14 @@
         }
       }
     },
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj",
         "projectName": "BuildingBlocks.Infrastructure",
-        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/BuildingBlocks.Infrastructure.csproj",
         "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/obj/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/infrastructure/BuildingBlocks.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
@@ -275,11 +275,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj"
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj"
               },
-              "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj"
+              "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj": {
+                "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj"
               }
             }
           }
@@ -353,14 +353,14 @@
         }
       }
     },
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts.Messages/Accounts.Messages.csproj": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts.Messages/Accounts.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts.Messages/Accounts.Messages.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts.Messages/Accounts.Messages.csproj",
         "projectName": "Accounts.Messages",
-        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts.Messages/Accounts.Messages.csproj",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts.Messages/Accounts.Messages.csproj",
         "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/accounts/Accounts.Messages/obj/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/accounts/Accounts.Messages/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
@@ -412,14 +412,14 @@
         }
       }
     },
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj",
         "projectName": "Catalog.Messages",
-        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/catalog/Catalog.Messages/Catalog.Messages.csproj",
         "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/catalog/Catalog.Messages/obj/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/catalog/Catalog.Messages/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
@@ -471,14 +471,14 @@
         }
       }
     },
-    "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/Stores.Messages.csproj": {
+    "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/stores/Stores.Messages/Stores.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/Stores.Messages.csproj",
+        "projectUniqueName": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/stores/Stores.Messages/Stores.Messages.csproj",
         "projectName": "Stores.Messages",
-        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/Stores.Messages.csproj",
+        "projectPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/stores/Stores.Messages/Stores.Messages.csproj",
         "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/stores/Stores.Messages/obj/",
+        "outputPath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/stores/Stores.Messages/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"

@@ -25,7 +25,7 @@ string GenerateDockerfile(string type, string name)
     var n = name;
     var u = char.ToUpper(n[0]) + n[1..];
     var s = new StringBuilder();
-    s.AppendLine("FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine AS base");
+    s.AppendLine("FROM mcr.microsoft.com/dotnet/aspnet:9.0-alpine AS base");
     s.AppendLine("WORKDIR /app");
     s.AppendLine("EXPOSE 80");
     s.AppendLine("EXPOSE 81");
@@ -40,7 +40,7 @@ string GenerateDockerfile(string type, string name)
     
     s.AppendLine("");
 
-    s.AppendLine("FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build");
+    s.AppendLine("FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build");
     s.AppendLine("WORKDIR /work");
     s.AppendLine("");
 

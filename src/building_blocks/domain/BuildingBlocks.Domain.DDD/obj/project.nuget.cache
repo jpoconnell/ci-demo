@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p0gVQZTD9h4=",
+  "dgSpecHash": "oHVhaDJiXE8=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/building_blocks/domain/BuildingBlocks.Domain.DDD/BuildingBlocks.Domain.DDD.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

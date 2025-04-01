@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ap2Eft9cWU8=",
+  "dgSpecHash": "wyNM0F2h+0k=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/media/Media.FunctionalTests/Media.FunctionalTests.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.FunctionalTests/Media.FunctionalTests.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/aspnetcore.healthchecks.uris/6.0.3/aspnetcore.healthchecks.uris.6.0.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",

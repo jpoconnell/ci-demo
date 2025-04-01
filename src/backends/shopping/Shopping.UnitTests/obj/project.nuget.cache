@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "za+HpDAIxMk=",
+  "dgSpecHash": "cNeZRCm5FW8=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/backends/shopping/Shopping.UnitTests/Shopping.UnitTests.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/shopping/Shopping.UnitTests/Shopping.UnitTests.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G9PI9WU3B/k=",
+  "dgSpecHash": "6M0abGZVJ4Q=",
   "success": true,
-  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/frontends/admin/Admin/Admin.csproj",
+  "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/frontends/admin/Admin/Admin.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/aspnetcore.healthchecks.uris/9.0.0/aspnetcore.healthchecks.uris.9.0.0.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/google.api.commonprotos/2.16.0/google.api.commonprotos.2.16.0.nupkg.sha512",
