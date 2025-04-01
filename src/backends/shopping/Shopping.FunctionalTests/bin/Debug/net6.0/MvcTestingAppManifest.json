@@ -1,9 +1,0 @@
-{
-  "Accounts.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/services\/accounts\/Accounts.Messages",
-  "BuildingBlocks.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/building_blocks\/application\/BuildingBlocks.Application",
-  "BuildingBlocks.Domain.DDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/building_blocks\/domain\/BuildingBlocks.Domain.DDD",
-  "BuildingBlocks.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/building_blocks\/infrastructure\/BuildingBlocks.Infrastructure",
-  "Catalog.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/services\/catalog\/Catalog.Messages",
-  "Shopping, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/backends\/shopping\/Shopping",
-  "Stores.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/services\/stores\/Stores.Messages"
-}

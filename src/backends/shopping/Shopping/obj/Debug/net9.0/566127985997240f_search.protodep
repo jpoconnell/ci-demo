@@ -1,2 +1,0 @@
-obj/Debug/net9.0/Search.cs \
-obj/Debug/net9.0/SearchGrpc.cs: ../../../services/search/Search/Api/search.proto

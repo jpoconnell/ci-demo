@@ -1,4 +1,0 @@
-obj/Debug/net9.0/Catalog.cs \
-obj/Debug/net9.0/CatalogGrpc.cs: /Users/jeremiahoconnell/.nuget/packages/grpc.tools/2.45.0/build/native/include/google/protobuf/empty.proto\
- ../../../services/catalog/Catalog/Api/google/type/money.proto\
- ../../../services/catalog/Catalog/Api/catalog.proto

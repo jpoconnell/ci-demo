@@ -1,6 +1,0 @@
-{
-  "BuildingBlocks.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/ci-demo\/src\/building_blocks\/application\/BuildingBlocks.Application",
-  "BuildingBlocks.Domain.DDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/ci-demo\/src\/building_blocks\/domain\/BuildingBlocks.Domain.DDD",
-  "BuildingBlocks.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/ci-demo\/src\/building_blocks\/infrastructure\/BuildingBlocks.Infrastructure",
-  "Media, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/ci-demo\/src\/services\/media\/Media"
-}

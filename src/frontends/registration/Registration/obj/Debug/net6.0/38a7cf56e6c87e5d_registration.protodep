@@ -1,3 +1,0 @@
-obj/Debug/net6.0/Registration.cs \
-obj/Debug/net6.0/RegistrationGrpc.cs: /Users/jeremiahoconnell/.nuget/packages/grpc.tools/2.45.0/build/native/include/google/protobuf/empty.proto\
- ../../../backends/registration/Registration/Api/registration.proto
