@@ -1,7 +1,7 @@
 {
-  "BuildingBlocks.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/building_blocks\/application\/BuildingBlocks.Application",
-  "BuildingBlocks.Domain.DDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/building_blocks\/domain\/BuildingBlocks.Domain.DDD",
-  "BuildingBlocks.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/building_blocks\/infrastructure\/BuildingBlocks.Infrastructure",
-  "Stores, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/services\/stores\/Stores",
-  "Stores.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/k8s-dotnet-microservices-monorepo-saas\/src\/services\/stores\/Stores.Messages"
+  "BuildingBlocks.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/ci-demo\/src\/building_blocks\/application\/BuildingBlocks.Application",
+  "BuildingBlocks.Domain.DDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/ci-demo\/src\/building_blocks\/domain\/BuildingBlocks.Domain.DDD",
+  "BuildingBlocks.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/ci-demo\/src\/building_blocks\/infrastructure\/BuildingBlocks.Infrastructure",
+  "Stores, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/ci-demo\/src\/services\/stores\/Stores",
+  "Stores.Messages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/Documents\/gitRepos\/demo\/ci-demo\/src\/services\/stores\/Stores.Messages"
 }

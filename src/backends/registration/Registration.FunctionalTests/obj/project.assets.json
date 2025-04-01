@@ -1621,6 +1621,18 @@
           }
         }
       },
+      "xunit.runner.visualstudio/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "build": {
+          "build/net6.0/xunit.runner.visualstudio.props": {}
+        }
+      },
       "BuildingBlocks.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -3945,6 +3957,27 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
+    "xunit.runner.visualstudio/3.0.0": {
+      "sha512": "HggUqjQJe8PtDxcP25Q+CnR6Lz4oX3GElhD9V4oU2+75x9HI6A6sxbfKGS4UwU4t4yJaS9fBmAuriz8bQApNjw==",
+      "type": "package",
+      "path": "xunit.runner.visualstudio/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "build/net472/xunit.abstractions.dll",
+        "build/net472/xunit.runner.visualstudio.props",
+        "build/net472/xunit.runner.visualstudio.testadapter.dll",
+        "build/net6.0/xunit.abstractions.dll",
+        "build/net6.0/xunit.runner.visualstudio.props",
+        "build/net6.0/xunit.runner.visualstudio.testadapter.dll",
+        "lib/net472/_._",
+        "lib/net6.0/_._",
+        "xunit.runner.visualstudio.3.0.0.nupkg.sha512",
+        "xunit.runner.visualstudio.nuspec"
+      ]
+    },
     "BuildingBlocks.Application/1.0.0": {
       "type": "project",
       "path": "../../../building_blocks/application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
@@ -3978,7 +4011,7 @@
       "Registration >= 1.0.0",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.3",
-      "xunit.runner.visualstudio >= 3.0.3"
+      "xunit.runner.visualstudio >= 3.0.0"
     ]
   },
   "packageFolders": {
@@ -4070,7 +4103,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[3.0.3, )"
+            "version": "[3.0.0, )"
           }
         },
         "imports": [
@@ -4092,16 +4125,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package xunit.runner.visualstudio with version (>= 3.0.3)\n  - Found 91 version(s) in nuget.org [ Nearest version: 3.0.2 ]",
-      "libraryId": "xunit.runner.visualstudio",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }

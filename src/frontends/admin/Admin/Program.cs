@@ -36,6 +36,7 @@ builder.Services.AddLogging(c => {
     });
 });
 
+/*
 // Telemetry
 builder.Services.AddOpenTelemetryTracing(builder => {
     builder
@@ -48,7 +49,7 @@ builder.Services.AddOpenTelemetryTracing(builder => {
         .AddGrpcClientInstrumentation()
         .AddConsoleExporter();
 });
-
+*/
 builder.Services.AddHealthChecks();
 builder.WebHost.ConfigureKestrel(opt => {
     // Operate one port in HTTP/1.1 mode for k8s health-checks etc

@@ -10,3 +10,15 @@
 /Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/media/Media.Messages/obj/Debug/net9.0/refint/Media.Messages.dll
 /Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/media/Media.Messages/obj/Debug/net9.0/Media.Messages.pdb
 /Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/src/services/media/Media.Messages/obj/Debug/net9.0/ref/Media.Messages.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/bin/Debug/net9.0/Media.Messages.deps.json
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/bin/Debug/net9.0/Media.Messages.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/bin/Debug/net9.0/Media.Messages.pdb
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/obj/Debug/net9.0/Media.Messages.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/obj/Debug/net9.0/Media.Messages.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/obj/Debug/net9.0/Media.Messages.AssemblyInfo.cs
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/obj/Debug/net9.0/Media.Messages.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/obj/Debug/net9.0/Media.Messages.sourcelink.json
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/obj/Debug/net9.0/Media.Messages.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/obj/Debug/net9.0/refint/Media.Messages.dll
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/obj/Debug/net9.0/Media.Messages.pdb
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/services/media/Media.Messages/obj/Debug/net9.0/ref/Media.Messages.dll

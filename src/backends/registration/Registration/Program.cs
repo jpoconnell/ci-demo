@@ -38,8 +38,8 @@ builder.Services.AddGrpc(c => {
     c.EnableDetailedErrors = true;
 });
 
-builder.Services.AddHealthChecks()
-    .AddRabbitMQ(builder.Configuration.GetRabbitUri(), tags: new[] {"ready"}, timeout: TimeSpan.FromSeconds(1));
+//builder.Services.AddHealthChecks()
+  //  .AddRabbitMQ(builder.Configuration.GetRabbitUri(), tags: new[] {"ready"}, timeout: TimeSpan.FromSeconds(1));
 
 builder.WebHost.ConfigureKestrel(opt => {
     // Operate one port in HTTP/1.1 mode for k8s health-checks etc

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "U865bA2Xt5E=",
-  "success": false,
+  "dgSpecHash": "0B/QvhVZtVI=",
+  "success": true,
   "projectFilePath": "/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/src/backends/registration/Registration.FunctionalTests/Registration.FunctionalTests.csproj",
   "expectedPackageFiles": [
     "/Users/jeremiahoconnell/.nuget/packages/ardalis.guardclauses/5.0.0/ardalis.guardclauses.5.0.0.nupkg.sha512",
@@ -83,17 +83,8 @@
     "/Users/jeremiahoconnell/.nuget/packages/xunit.assert/2.9.3/xunit.assert.2.9.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/xunit.core/2.9.3/xunit.core.2.9.3.nupkg.sha512",
     "/Users/jeremiahoconnell/.nuget/packages/xunit.extensibility.core/2.9.3/xunit.extensibility.core.2.9.3.nupkg.sha512",
-    "/Users/jeremiahoconnell/.nuget/packages/xunit.extensibility.execution/2.9.3/xunit.extensibility.execution.2.9.3.nupkg.sha512"
+    "/Users/jeremiahoconnell/.nuget/packages/xunit.extensibility.execution/2.9.3/xunit.extensibility.execution.2.9.3.nupkg.sha512",
+    "/Users/jeremiahoconnell/.nuget/packages/xunit.runner.visualstudio/3.0.0/xunit.runner.visualstudio.3.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package xunit.runner.visualstudio with version (>= 3.0.3)\n  - Found 91 version(s) in nuget.org [ Nearest version: 3.0.2 ]",
-      "libraryId": "xunit.runner.visualstudio",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }

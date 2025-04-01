@@ -6,3 +6,11 @@
 /Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tests/SystemTests/obj/Debug/net9.0/SystemTests.AssemblyInfo.cs
 /Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tests/SystemTests/obj/Debug/net9.0/SystemTests.csproj.CoreCompileInputs.cache
 /Users/jeremiahoconnell/Documents/gitRepos/demo/k8s-dotnet-microservices-monorepo-saas/tests/SystemTests/obj/Debug/net9.0/SystemTests.sourcelink.json
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/tests/SystemTests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_SystemTests
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/tests/SystemTests/bin/Debug/net9.0/CoverletSourceRootsMapping_SystemTests
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/tests/SystemTests/obj/Debug/net9.0/SystemTests.csproj.AssemblyReference.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/tests/SystemTests/obj/Debug/net9.0/SystemTests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/tests/SystemTests/obj/Debug/net9.0/SystemTests.AssemblyInfoInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/tests/SystemTests/obj/Debug/net9.0/SystemTests.AssemblyInfo.cs
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/tests/SystemTests/obj/Debug/net9.0/SystemTests.csproj.CoreCompileInputs.cache
+/Users/jeremiahoconnell/Documents/gitRepos/demo/ci-demo/tests/SystemTests/obj/Debug/net9.0/SystemTests.sourcelink.json
