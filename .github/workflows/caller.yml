@@ -8,21 +8,16 @@ on:
         required: true
         type: choice
         options:
-          - 'service_catalog_config'
           - 'service_carts_build'
-          - 'service_carts_deploy'
+          - 'service_carts_config'
 
 jobs:
-
-  service_catalog_config:
-    if: ${{ github.event.inputs.feature == 'service_catalog_config' }}
-    uses: ./.github/workflows/service_catalog_config.yaml
 
   service_carts_build:
     if: ${{ github.event.inputs.feature == 'service_carts_build' }}
     uses: ./.github/workflows/service_carts_build.yaml
 
-  service_carts_deploy:
-    if: ${{ github.event.inputs.feature == 'service_carts_deploy' }}
-    uses: ./.github/workflows/service_carts_deploy.yaml
+  service_carts_config:
+    if: ${{ github.event.inputs.feature == 'service_carts_config' }}
+    uses: ./.github/workflows/service_carts_config.yaml
     
