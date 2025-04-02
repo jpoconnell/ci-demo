@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine AS base
+FROM mcr.microsoft.com/dotnet/aspnet:9.0-alpine AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 81
@@ -10,7 +10,7 @@ ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
 # add diagnostic tools
 RUN apk add --no-cache curl
 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /work
 
 # Start build cache
