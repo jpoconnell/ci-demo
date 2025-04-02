@@ -8,21 +8,21 @@ on:
         required: true
         type: choice
         options:
-          - 'backend_registration_build'
-          - 'frontend_admin_build'
-          - 'frontend_admin_config'
+          - 'service_catalog_config'
+          - 'service_carts_build'
+          - 'service_carts_deploy'
 
 jobs:
 
-  backend_registration_build:
-    if: ${{ github.event.inputs.feature == 'backend_registration_build' }}
-    uses: ./.github/workflows/backend_registration_build.yaml
+  service_catalog_config:
+    if: ${{ github.event.inputs.feature == 'service_catalog_config' }}
+    uses: ./.github/workflows/service_catalog_config.yaml
 
-  frontend_admin_build:
-    if: ${{ github.event.inputs.feature == 'frontend_admin_build' }}
-    uses: ./.github/workflows/frontend_admin_build.yaml
+  service_carts_build:
+    if: ${{ github.event.inputs.feature == 'service_carts_build' }}
+    uses: ./.github/workflows/service_carts_build.yaml
 
-  frontend_admin_config:
-    if: ${{ github.event.inputs.feature == 'frontend_admin_config' }}
-    uses: ./.github/workflows/frontend_admin_config.yaml
+  service_carts_deploy:
+    if: ${{ github.event.inputs.feature == 'service_carts_deploy' }}
+    uses: ./.github/workflows/service_carts_deploy.yaml
     
