@@ -1,0 +1,3 @@
+obj/Debug/net9.0/Application.cs \
+obj/Debug/net9.0/ApplicationGrpc.cs: /Users/jeremiahoconnell/.nuget/packages/grpc.tools/2.45.0/build/native/include/google/protobuf/empty.proto\
+ ../../../services/accounts/Accounts/Api/application.proto

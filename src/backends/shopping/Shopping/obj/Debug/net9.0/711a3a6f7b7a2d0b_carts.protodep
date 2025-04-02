@@ -1,0 +1,4 @@
+obj/Debug/net9.0/Carts.cs \
+obj/Debug/net9.0/CartsGrpc.cs: /Users/jeremiahoconnell/.nuget/packages/grpc.tools/2.45.0/build/native/include/google/protobuf/empty.proto\
+ ../../../services/carts/Carts/Api/google/type/money.proto\
+ ../../../services/carts/Carts/Api/carts.proto

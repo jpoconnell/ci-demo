@@ -1,0 +1,4 @@
+obj/Debug/net9.0/Shopping.cs \
+obj/Debug/net9.0/ShoppingGrpc.cs: /Users/jeremiahoconnell/.nuget/packages/grpc.tools/2.45.0/build/native/include/google/protobuf/empty.proto\
+ Api/google/type/money.proto\
+ Api/shopping.proto
