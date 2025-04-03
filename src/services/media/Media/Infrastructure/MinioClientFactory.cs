@@ -1,5 +1,4 @@
 ﻿using BuildingBlocks.Infrastructure.Configuration;
-using Microsoft.Extensions.Configuration;
 using Minio;
 
 namespace Media.Infrastructure
@@ -31,7 +30,7 @@ namespace Media.Infrastructure
             {
                 minioClient.SetTraceOn();    
             }
-            return minioClient;
+            return (MinioClient)minioClient;
         }
     }
 }

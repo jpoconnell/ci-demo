@@ -4,6 +4,8 @@ using System.Threading.Tasks;
 using Media.Infrastructure;
 using Microsoft.Extensions.Logging;
 using Minio;
+using Minio.DataModel.Args;
+using IMinioClientFactory = Media.Infrastructure.IMinioClientFactory;
 
 namespace Media.Application
 {

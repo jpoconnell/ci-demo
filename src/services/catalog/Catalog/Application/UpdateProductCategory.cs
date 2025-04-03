@@ -38,7 +38,7 @@ namespace Catalog.Application
                 _context = context;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var product = await _products.GetByIdAsync(request.ProductId);
                 if (product == null)
@@ -56,7 +56,7 @@ namespace Catalog.Application
                 await _products.UpdateAsync(product);
                 await Publish(product, category, cancellationToken);
 
-                return Unit.Value;
+                return ;
             }
 
             private async Task Publish(Product product, Category category, CancellationToken cancellationToken) =>

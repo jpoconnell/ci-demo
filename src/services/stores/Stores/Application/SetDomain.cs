@@ -36,7 +36,7 @@ namespace Stores.Application
                 _context = context;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var storeId = request.StoreId;
                 var domain = request.Domain;
@@ -54,7 +54,7 @@ namespace Stores.Application
                 var message = new StoreUpdated(_context.GetAccountId(), store.StoreId, store.Name, store.Theme, store.Subdomain, store.Domain);
                 await _publisher.Publish(message, cancellationToken);
 
-                return Unit.Value;
+                return ;
             }
         }
     }

@@ -36,7 +36,7 @@ namespace Accounts.Application
                 _logs = logs;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var token = request.Token;
                 var email = request.Email;
@@ -53,7 +53,7 @@ namespace Accounts.Application
 
                 await _writer.SaveAsync(user);
 
-                return Unit.Value;
+                return ;
             }
         }
     }

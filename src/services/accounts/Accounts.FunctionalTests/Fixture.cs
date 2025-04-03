@@ -1,5 +1,4 @@
 ﻿using Accounts.Api;
-using Baseline;
 using Grpc.Net.Client;
 using MartinCostello.Logging.XUnit;
 using Microsoft.AspNetCore.Hosting;

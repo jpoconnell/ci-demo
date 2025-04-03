@@ -37,12 +37,12 @@ namespace Catalog.Application
                 _context = context;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var category = await _repository.GetByIdAsync(request.CategoryId);
                 if (category != null)
                 {
-                    return Unit.Value;
+                    return ;
                 }
                 
                 string? parentCategoryId;
@@ -66,7 +66,7 @@ namespace Catalog.Application
                 var message = new CategoryAdded(_context.GetAccountId(), request.CategoryId, request.Name);
                 await _publisher.Publish(message, cancellationToken);
 
-                return Unit.Value;
+                return ;
             }
         }
     }

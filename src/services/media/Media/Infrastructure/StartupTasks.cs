@@ -2,6 +2,7 @@
 using Media.Application;
 using Microsoft.Extensions.Logging;
 using Minio;
+using Minio.DataModel.Args;
 
 namespace Media.Infrastructure
 {

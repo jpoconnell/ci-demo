@@ -33,7 +33,7 @@ namespace Carts.Application
                 _repository = repository;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var currency = Currency.FromCurrencyCode(request.CurrencyCode);
                 var unitPrice = Money.CreateInstance(request.UnitPrice, currency);
@@ -44,12 +44,12 @@ namespace Carts.Application
                     cart = Cart.CreateInstance(request.CartId, currency);
                     cart.AddProduct(request.ProductId, request.Description, request.Quantity, unitPrice);
                     await _repository.SaveAsync(cart);
-                    return Unit.Value;
+                    return ;
                 }
                 
                 cart.AddProduct(request.ProductId, request.Description, request.Quantity, unitPrice);
                 await _repository.UpdateAsync(cart);
-                return Unit.Value;
+                return ;
             }
         }
     }

@@ -36,7 +36,7 @@ namespace Catalog.Application
                 _context = context;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var categoryId = request.CategoryId;
                 var name = request.Name;
@@ -53,7 +53,7 @@ namespace Catalog.Application
                 var message = new CategoryUpdated(_context.GetAccountId(), request.CategoryId, request.Name);
                 await _publisher.Publish(message, cancellationToken);
 
-                return Unit.Value;
+                return ;
             }
         }
     }

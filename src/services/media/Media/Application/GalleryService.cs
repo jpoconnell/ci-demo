@@ -6,8 +6,11 @@ using Google.Protobuf.Collections;
 using Media.Infrastructure;
 using Microsoft.Extensions.Logging;
 using Minio;
+using Minio.ApiEndpoints;
 using Minio.DataModel;
+using Minio.DataModel.Args;
 using Minio.Exceptions;
+using IMinioClientFactory = Media.Infrastructure.IMinioClientFactory;
 
 namespace Media.Application
 {

@@ -24,7 +24,7 @@ namespace Management.Application
                 _catalog = catalog;
             }
 
-            public async Task<Unit> Handle(Command command, CancellationToken cancellationToken)
+            public async Task Handle(Command command, CancellationToken cancellationToken)
             {
                 var request = new AddProductRequest
                 {
@@ -35,7 +35,7 @@ namespace Management.Application
                     Price = new Money{DecimalValue = 1, CurrencyCode = "AUD"}
                 };
                 await _catalog.AddProductAsync(request, cancellationToken: cancellationToken);
-                return Unit.Value;
+                return ;
             }
         }
 

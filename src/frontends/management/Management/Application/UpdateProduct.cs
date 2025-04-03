@@ -23,7 +23,7 @@ namespace Management.Application
                 _catalog = catalog;
             }
 
-            public async Task<Unit> Handle(Command command, CancellationToken cancellationToken)
+            public async Task Handle(Command command, CancellationToken cancellationToken)
             {
                 var request = new UpdateProductDetailsRequest
                 {
@@ -33,7 +33,7 @@ namespace Management.Application
                 };
                 
                 await _catalog.UpdateProductDetailsAsync(request, cancellationToken: cancellationToken);
-                return Unit.Value;
+                return ;
             }
         }
     }

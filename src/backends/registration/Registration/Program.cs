@@ -33,6 +33,7 @@ builder.Services.AddLogging(c => {
         opt.IncludeScopes = true;
     });
 });
+builder.AddServiceDefaults();
 
 builder.Services.AddGrpc(c => {
     c.EnableDetailedErrors = true;

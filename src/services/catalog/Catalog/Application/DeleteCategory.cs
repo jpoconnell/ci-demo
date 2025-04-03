@@ -34,18 +34,18 @@ namespace Catalog.Application
                 _context = context;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var category = await _repository.GetByIdAsync(request.CategoryId);
                 if (category == null)
                 {
-                    return Unit.Value;
+                    return ;
                 }
                 
                 await _repository.DeleteAsync(category);
                 await _publisher.Publish(new CategoryDeleted(_context.GetAccountId(), category.CategoryId, category.Name), cancellationToken);
                 
-                return Unit.Value;
+                return ;
             }
         }
     }

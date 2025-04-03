@@ -39,7 +39,7 @@ namespace Stores.Application
                 _context = context;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var accountId = _context.GetAccountId();
                 var storeId = request.StoreId;
@@ -48,7 +48,7 @@ namespace Stores.Application
                 // idempotent
                 if (await _repository.ExistsByIdAsync(storeId))
                 {
-                    return Unit.Value;
+                    return ;
                 }
                 
                 var subdomain = storeName.GenerateSlug();
@@ -66,7 +66,7 @@ namespace Stores.Application
                 var message = new StoreAdded(accountId, store.StoreId, store.Name, store.Theme, store.Subdomain);
                 await _publisher.Publish(message, cancellationToken);
 
-                return Unit.Value;
+                return ;
             }
         }
     }

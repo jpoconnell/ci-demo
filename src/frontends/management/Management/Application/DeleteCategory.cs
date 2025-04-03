@@ -23,14 +23,14 @@ namespace Management.Application
                 _catalog = catalog;
             }
 
-            public async Task<Unit> Handle(Command command, CancellationToken cancellationToken)
+            public async Task Handle(Command command, CancellationToken cancellationToken)
             {
                 var request = new DeleteCategoryRequest
                 {
                     CategoryId = command.CategoryId
                 };
                 await _catalog.DeleteCategoryAsync(request, cancellationToken: cancellationToken);
-                return Unit.Value;
+                return ;
             }
         }
 

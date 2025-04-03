@@ -1,30 +1,30 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>Carts</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Ardalis.GuardClauses" Version="4.0.1" />
-        <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="6.0.2" />
-        <PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="6.0.2" />
-        <PackageReference Include="Dapper" Version="2.0.123" />
-        <PackageReference Include="FluentMigrator" Version="3.3.2" />
-        <PackageReference Include="FluentMigrator.Runner" Version="3.3.2" />
-        <PackageReference Include="FluentMigrator.Runner.Postgres" Version="3.3.2" />
-        <PackageReference Include="FluentValidation" Version="10.4.0" />
-        <PackageReference Include="FluentValidation.AspNetCore" Version="10.4.0" />
-        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.4.0" />
-        <PackageReference Include="Google.Api.CommonProtos" Version="2.5.0" />
-        <PackageReference Include="Grpc.AspNetCore" Version="2.45.0" />
+        <PackageReference Include="Ardalis.GuardClauses" Version="5.0.0" />
+        <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="8.0.2" />
+        <PackageReference Include="AspNetCore.HealthChecks.Rabbitmq" Version="8.0.2" />
+        <PackageReference Include="Dapper" Version="2.1.66" />
+        <PackageReference Include="FluentMigrator" Version="7.1.0" />
+        <PackageReference Include="FluentMigrator.Runner" Version="7.1.0" />
+        <PackageReference Include="FluentMigrator.Runner.Postgres" Version="7.1.0" />
+        <PackageReference Include="FluentValidation" Version="11.11.0" />
+        <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+        <PackageReference Include="Google.Api.CommonProtos" Version="2.16.0" />
+        <PackageReference Include="Grpc.AspNetCore" Version="2.70.0" />
         <PackageReference Include="MassTransit.RabbitMQ" Version="8.4.0" />
-        <PackageReference Include="MediatR" Version="10.0.1" />
-        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+        <PackageReference Include="MediatR" Version="12.5.0" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
         <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-        <PackageReference Include="Npgsql" Version="6.0.3" />
+        <PackageReference Include="Npgsql" Version="8.0.7" />
     </ItemGroup>
 
     <ItemGroup>

@@ -29,7 +29,7 @@ namespace Carts.Application
                 _repository = repository;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var cart = await _repository.GetByIdAsync(request.CartId);
                 if (cart == null)
@@ -39,11 +39,11 @@ namespace Carts.Application
                 if (!cart.ContainsProduct(request.ProductId))
                 {
                     // Idempotent
-                    return Unit.Value;
+                    return ;
                 }
                 cart.RemoveProduct(request.ProductId);
                 await _repository.UpdateAsync(cart);
-                return Unit.Value;
+                return ;
             }
         }
     }

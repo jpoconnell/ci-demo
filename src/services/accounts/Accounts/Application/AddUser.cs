@@ -36,7 +36,7 @@ namespace Accounts.Application
                 _logs = logs;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var accountId = _context.GetAccountId();
                 var userId = request.UserId;
@@ -45,7 +45,7 @@ namespace Accounts.Application
                 var user = await _reader.GetUserByIdAsync(userId);
                 if (user != null)
                 {
-                    return Unit.Value;
+                    return ;
                 }
                 
                 _logs.LogInformation($"Adding user {userId} {email} to account {accountId}");
@@ -54,7 +54,7 @@ namespace Accounts.Application
 
                 await _writer.SaveAsync(user);
 
-                return Unit.Value;
+                return ;
             }
         }
     }

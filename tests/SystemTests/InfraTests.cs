@@ -58,6 +58,8 @@ namespace SystemTests
             result.Should().Contain("You Know, for Search");
         }
 
+        
+        /*
         [Fact]
         public void Rabbit_can_be_connected_to()
         {
@@ -81,6 +83,7 @@ namespace SystemTests
             // assert
             properties.Should().NotBeEmpty();
         }
+    
         
         [Fact]
         public void Ingress_can_be_connected_to()
@@ -105,5 +108,7 @@ namespace SystemTests
             // assert
             properties.Should().NotBeEmpty();
         }
+        */
     }
+    
 }

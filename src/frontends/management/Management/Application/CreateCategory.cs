@@ -23,7 +23,7 @@ namespace Management.Application
                 _catalog = catalog;
             }
 
-            public async Task<Unit> Handle(Command command, CancellationToken cancellationToken)
+            public async Task Handle(Command command, CancellationToken cancellationToken)
             {
                 var request = new AddCategoryRequest
                 {
@@ -32,7 +32,7 @@ namespace Management.Application
                     ParentCategoryId = command.ParentCategoryId ?? string.Empty
                 };
                 await _catalog.AddCategoryAsync(request, cancellationToken: cancellationToken);
-                return Unit.Value;
+                return ;
             }
         }
 

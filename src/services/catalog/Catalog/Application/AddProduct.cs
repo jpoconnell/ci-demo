@@ -42,12 +42,12 @@ namespace Catalog.Application
                 _context = context;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var product = await _repository.GetByIdAsync(request.ProductId);
                 if (product != null)
                 {
-                    return Unit.Value;
+                    return ;
                 }
 
                 var category = await _categories.GetByIdAsync(request.CategoryId);
@@ -61,7 +61,7 @@ namespace Catalog.Application
                 await _repository.SaveAsync(product);
                 await Publish(product, category, cancellationToken);
 
-                return Unit.Value;
+                return ;
             }
 
             private async Task Publish(Product product, Category category, CancellationToken cancellationToken) =>

@@ -41,6 +41,7 @@ builder.Services.AddLogging(c => {
         opt.IncludeScopes = true;
     });
 });
+builder.AddServiceDefaults();
 
 // Application
 var assembly = Assembly.GetExecutingAssembly();
@@ -88,8 +89,9 @@ builder.Services.AddGrpc(c => {
 
 // Health
 builder.Services.AddHealthChecks()
-    .AddNpgSql(builder.Configuration.GetPostgresConnectionString(), name: "postgresql", tags: new[] {"ready"}, timeout: TimeSpan.FromSeconds(1))
-    .AddRabbitMQ(builder.Configuration.GetRabbitUri(), name: "rabbitmq", tags: new[] {"ready"}, timeout: TimeSpan.FromSeconds(1));
+    .AddNpgSql(builder.Configuration.GetPostgresConnectionString(), name: "postgresql", tags: new[] { "ready" },
+        timeout: TimeSpan.FromSeconds(1));
+   // .AddRabbitMQ(builder.Configuration.GetRabbitUri(), name: "rabbitmq", tags: new[] {"ready"}, timeout: TimeSpan.FromSeconds(1));
 
 // Ports
 builder.WebHost.ConfigureKestrel(opt => {

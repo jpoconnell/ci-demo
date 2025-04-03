@@ -37,7 +37,7 @@ namespace Accounts.Application
                 _logs = logs;
             }
 
-            public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
+            public async Task Handle(Command request, CancellationToken cancellationToken)
             {
                 var accountId = request.AccountId;
                 var name = request.Name;
@@ -45,7 +45,7 @@ namespace Accounts.Application
                 var account = await _reader.GetAccountByIdAsync(accountId);
                 if (account != null)
                 {
-                    return Unit.Value;
+                    return ;
                 }
                 
                 _logs.LogInformation($"Creating account {accountId} {name}");
@@ -55,7 +55,7 @@ namespace Accounts.Application
                 await _writer.SaveAsync(account);
                 await _publisher.Publish(new AccountAdded(account.AccountId, request.Name), cancellationToken);
 
-                return Unit.Value;
+                return ;
             }
         }
     }
